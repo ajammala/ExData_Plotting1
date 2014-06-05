@@ -22,7 +22,7 @@ png("plot4.png", width = 480, height = 480, units = "px", bg = "transparent")
 par(mfrow=c(2,2))
 
 #*************   PLOT 1   *************************************************************
-plot(subData$Date2, as.numeric(as.character(subData$Global_active_power)), type="l", xlab="", ylab="Global Active Power (kilowatts)")
+plot(subData$Date2, as.numeric(as.character(subData$Global_active_power)), type="l", xlab="", ylab="Global Active Power")
 # X-axis
 axis(side=1, at=seq(0,6, 2), labels=seq(0,6,2))
 # Y- axis
